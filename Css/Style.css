@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sulzinc-header{
+    background-color: rgb(26, 4, 154);
+}
+.donate-compare{
+    background-color: blueviolet;
+}
+.header-heading{
+    padding-top: 5rem;
+}
+/* .header-body::after{
+    background-image: url(../img/fa.jpg);
+    position: relative;
+    z-index: 5;
+} */
+.header-body{
+    position:relative;
+   
+   
+    z-index: 1;
+  
+ }
+ .header-body::before {
+    content: "";
+    position: absolute;
+    top: 0rem;
+    left: 5rem;
+    width: 19%;
+    height: 100%;
+    background-image: url(../img/fa.jpg);
+    z-index: 100;
+}
+.header-body::after {
+    content: "";
+    position: absolute;
+    top: 0rem;
+    left: 5rem;
+    width: 19%;
+    height: 100%;
+    background-image: url(../img/fa.jpg);
+    z-index: 100;
+}
+
+ 
+.sulzinc-medicine-img{
+    top: -2rem;
+}
+.titulo-blog{
+    color: #6610f2;
+    padding-left: 2.2rem !important;
+}
+.blog-leer-mas{
+    text-decoration: underline orangered;
+}
+.blog-leer-mas-underline{
+   
+}
+.blog-input-section{
+    background-color: orangered;
+    border-radius: 1.3rem;
+}
+
+.menu-main-div{
+    background-color: antiquewhite;
+}
+.menu-heading{
+    color: blueviolet;
+}
+ul li a{
+    text-decoration: none !important ;
+    color: black;
+
+    
+}
+ul li{
+    list-style: none    ;
+}
+.footer{
+    background-color: blueviolet;
+}
+.blueviolate-color{
+    color: blueviolet;
+}
+
+
+             
+    .orange-btn{
+        background-image: linear-gradient(to right, #E44D26 0%, #F16529  51%, #E44D26  100%);
+               /* padding: 15px 45px; */
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 5px #eee;
+     
+        display: block;
+      }
+
+      .orange-btn:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+
+               
+      .blueviolet-btn {
+        background-image: linear-gradient(to right, #6a3093 0%, #a044ff  51%, #6a3093  100%);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+      }
+
+      .blueviolet-btn:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
+     
+
