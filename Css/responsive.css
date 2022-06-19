@@ -1,0 +1,566 @@
+@media (min-width: 1800px) {
+  .container-fluid{
+      padding-left: 130px;
+      padding-right: 130px;
+  }
+
+}
+@media (min-width: 1400px) {
+    .container-fluid{
+      padding-left: 110px;
+      padding-right: 110px;
+  }
+}
+@media (min-width: 1200px) {
+    .container-fluid{
+      padding-left: 70px;
+      padding-right: 70px;
+  }
+}
+@media (max-width: 1699.98px) {
+    .banner-right.text-right img {
+    max-height: 500px;
+}
+.banner-left img {
+    max-height: 500px;
+}
+.banner-right.text-end {
+    position: relative;
+    right: 0;
+}
+}
+@media (max-width: 1399.98px) {
+    .banner-right.text-end img {
+    max-height: 500px;
+}
+.banner-sec:before {
+    top: 24%;
+    background-size: 80%;
+}
+ul.navbar-nav li a {
+    font: normal normal 600 18px/30px Poppins;
+    letter-spacing: 1.6px;
+}
+.banner-content.text-center {
+    position: absolute;
+    top: 8%;
+    z-index: 9;
+}
+.container-fluid{
+      padding-left: 90px;
+      padding-right: 90px;
+  }
+.banner-left img {
+    max-height: 440px;
+}
+.banner-right.text-end {
+    position: relative;
+    right: -10%;
+}
+ul.navbar-nav li:not(:last-child) {
+    margin-right: 1rem;
+}
+.banner-content.text-center h1, .banner-content.text-center h1 span {
+    font: normal normal 500 24px/48px Poppins;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+.blueviolet-btn, .orange-btn,.medecine-btn {
+    font: normal normal bold 16px/25px Poppins;
+    min-width: 150px;
+    padding: 0.8rem 1.5rem;
+}
+.sulzinc-feedback {
+    top: -60%;
+}
+.feedback-img img {
+    max-height: 380px;
+}
+.sulzinc-feedback-sec.py-5 h6 {
+    font: normal normal bold 23px/40px Poppins;
+    letter-spacing: 1.5px;
+    margin-bottom: 1.5rem;
+}
+.main-box-bg {
+    padding-bottom: 3rem;
+    padding-top: 10rem;
+}
+.common-sub-heading {
+    font: normal normal bold 26px/42px Poppins;
+    letter-spacing: 2px;
+}
+.banner-slider.swiper-container {
+    padding: 1rem;
+}
+.card-body.text-start.p-5 {
+    padding: 2rem !important;
+}
+h6.pb-5.blog-heading-title, h6.pb-5.blog-heading-title span {
+    font: normal normal 500 26px/38px Poppins;
+    letter-spacing: 2px;
+}
+.middle-img-gp {
+    position: relative;
+    top: 60px;
+}
+.sulzinc-medicine {
+    padding-bottom: 130px;
+}
+.sulzinc-medicine p {
+    font: normal normal normal 18px/30px Poppins;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+.utilizer-supliment {
+    padding: 50px 0;
+}
+.footer-menu-sec {
+    padding: 60px 0;
+}
+.acerca-para p, .footer p, .footer a {
+    font: normal normal normal 18px/32px Poppins;
+}
+.footer {
+    padding: 2rem 0;
+}
+ul.list-inline.icon-list li {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+}
+.sulzinc-medicine {
+    padding-bottom: 120px;
+}
+.middle-img-gp {
+    position: relative;
+    top: 80px;
+}
+p {
+    font: normal normal normal 18px/34px Poppins;
+}
+.card-body.text-start p.text-start {
+    font: normal normal normal 18px/32px Poppins;
+    margin-bottom: 1.2rem;
+}
+h6.titulo-blog {
+    font: normal normal 600 23px/35px Poppins;
+}
+.fw-bold.blog-leer-mas {
+    font: normal normal bold 16px/22px Poppins;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #F1813A;
+    margin-bottom: 1.2rem;
+}
+button.btn.orange-btn {
+    margin-left: 1.1rem;
+}
+nav.navbar.navbar-expand-lg.navbar-light img {
+    max-height: 70px;
+}
+.sulzinc-feedback h5 {
+    font: normal normal 500 26px/52px Poppins;
+    letter-spacing: 2px;
+    color: #141414;
+    text-transform: uppercase;
+}
+}
+
+@media (max-width:1199.98px) {
+	.banner-right.text-end {
+    position: relative;
+    right: 0;
+}
+.banner-sec:before {
+    left: 0;
+}
+	ul.navbar-nav li a {
+    font: normal normal 600 14px/24px Poppins;
+    letter-spacing: 1.3px;
+}
+.sulzinc-feedback h5 {
+    font: normal normal 500 22px/52px Poppins;
+    letter-spacing: 2px;
+}
+nav.navbar.navbar-expand-lg.navbar-light img {
+    max-height: 55px;
+}
+.banner-content.text-center h1 {
+    font: normal normal 500 30px/48px Poppins;
+}
+.banner-content.text-center h1 span {
+    font: normal normal 500 30px/48px Poppins;
+    letter-spacing: 2.5px;
+}
+.banner-right.text-end img {
+    max-height: 380px;
+}
+.banner-sec:before {
+    background-size: 72%;
+}
+.banner-left img {
+    max-height: 350px;
+}
+.sulzinc-feedback {
+    top: -30%;
+}
+.sulzinc-feedback-sec.py-5 h6 {
+    font: normal normal bold 20px/30px Poppins;
+    letter-spacing: 1.3px;
+    margin-bottom: 1.2rem;
+}
+p {
+    font: normal normal normal 16px/30px Poppins;
+}
+.sulzinc-feedback-sec.py-5 .pe-5.text-end {
+    padding-right: 0 !important;
+}
+.common-sub-heading {
+    font: normal normal bold 23px/38px Poppins;
+    letter-spacing: 1.8px;
+}
+.card-body.text-start p.text-start {
+    font: normal normal normal 15px/28px Poppins;
+    margin-bottom: 1rem;
+}
+h6.titulo-blog {
+    font: normal normal 600 20px/30px Poppins;
+}
+h6.pb-5.blog-heading-title, h6.pb-5.blog-heading-title span {
+    font: normal normal 500 23px/32px Poppins;
+    letter-spacing: 2px;
+    padding-bottom: 1.3rem !important;
+}
+ul.list-inline.icon-list li img {
+    max-height: 40px;
+}
+.utilizer-supliment .text-white.pt-3.mb-5 {
+    margin-bottom: 2rem !important;
+}
+.acerca-para p, .footer p, .footer a {
+    font: normal normal normal 16px/28px Poppins;
+}
+.acerca-para {
+    margin-top: 1rem;
+}
+.menu-heading.pb-4.pt-2 {
+    padding-bottom: 0.5rem !important;
+}
+.blueviolet-btn, .orange-btn,.medecine-btn {
+    font: normal normal bold 16px/25px Poppins;
+    min-width: 150px;
+    padding: 0.8rem 1.8rem;
+}
+.sulzinc-medicine p {
+    font: normal normal normal 18px/30px Poppins;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.form-contact input {
+    padding: 0.8rem 1rem;
+    border-radius: 1rem;
+}
+button.btn.orange-btn {
+    margin-left: 1rem;
+}
+.sulzinc-medicine {
+    padding-bottom: 80px;
+}
+.utilizer-supliment {
+    padding: 30px 0;
+}
+.container-fluid {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+}
+@media (max-width: 1024px){
+.container-fluid{
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  ul.navbar-nav li a {
+    font: normal normal 600 16px/30px Poppins;
+    letter-spacing: 1.6px;
+}
+.banner-right.text-end img {
+    max-height: 300px;
+}
+.banner-sec:before {
+    background-size: 65%;
+}
+.banner-content.text-center h1 {
+    font: normal normal 500 26px/36px Poppins;
+}
+.sulzinc-feedback h5 {
+    font: normal normal 500 20px/32px Poppins;
+    letter-spacing: 2px;
+    color: #141414;
+    text-transform: uppercase;
+}
+ul.navbar-nav li:not(:last-child) {
+    margin-right: 0.7rem;
+}
+ul.navbar-nav li a {
+    font: normal normal 600 13px/24px Poppins;
+    letter-spacing: 1.3px;
+}
+.sulzinc-feedback-sec.py-5 {
+    position: relative;
+    bottom: 0rem;
+    margin-bottom: -16rem;
+}
+nav.navbar.navbar-expand-lg.navbar-light img {
+    max-height: 48px;
+}
+button.btn.orange-btn {
+    margin-left: 0.5rem;
+}
+.blueviolet-btn, .orange-btn,.medecine-btn {
+    font: normal normal bold 16px/25px Poppins;
+    min-width: 150px;
+    padding: 0.5rem 1.6rem;
+}
+.banner-content.text-center h1 {
+    font: normal normal 500 28px/36px Poppins;
+}
+ul.list-inline.icon-list li {
+    background: #fff;
+    padding: 0.7rem;
+    border-radius: 50%;
+}
+.blog-input-section {
+    padding: 50px;
+}
+}
+@media (max-width:991.98px) {
+.sm-no-display{
+	display: none;
+}
+.no-display{
+    display: block;
+}
+div#navbarNav {
+    position: absolute;
+    left: 0;
+    background: #fff;
+    padding: 1rem;
+    width: 100%;
+    top: 84%;
+    z-index: 999;
+    transition: 0.5s;
+}
+ul.navbar-nav li a.navbar-brand.no-display.text-white.donate-compare.blueviolet-btn {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    color: #fff !important;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+}
+span.navbar-toggler-icon i {
+    color: #fff;
+    font-size: 2rem;
+}
+.banner-content.text-center {
+    position: absolute;
+    top: -3%;
+    z-index: 9;
+}
+.sulzinc-header nav.navbar {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.banner-left img {
+    max-height: 250px;
+}
+.banner-right.text-end img {
+    max-height: 200px;
+}
+.banner-right.text-end {
+    top: 25px;
+}
+.sulzinc-feedback {
+    top: 10%;
+}
+button.navbar-toggler {
+    outline: 0 !important;
+    box-shadow: none !important;
+    border: 0;
+}
+ul.navbar-nav li a {
+    font: normal normal 600 16px/32px Poppins;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 0 !important;
+    color: #000 !important;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+.sm-display {
+    display: block;
+}
+.sulzinc-medicine {
+    margin-top: 2rem;
+}
+.utilizer-supliment .row.py-5 {
+    padding-top: 0 !important;
+}
+.bg-white.container.py-3.mt-5.utlizar-roundad-div {
+    margin: 0 !important;
+    width: 100%;
+    max-width: 100%;
+}
+.acerca-para {
+    word-break: break-word;
+}
+.acerca-para p, .footer p, .footer a {
+    font: normal normal normal 14px/20px Poppins;
+    /*padding: 0 1rem;*/
+}
+.social-icon i {
+    background: #BC36D9;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;
+}
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+	.sm-display.sulzinc-medicine-img.pe-5, .sm-display.position-relative.sulzinc-medicine-img {
+    display: none;
+}
+}
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+  
+}
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .middle-img-gp{
+        display: none;
+    }
+    .medecine-img{
+    min-height: 9rem !important;
+    }
+    
+
+}
+@media (min-width: 800px) and (max-width: 991.98px) {
+
+ 
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (max-width:767.98px) {
+	body{
+		font-size: 14px
+	}
+	.container-fluid{
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  .feedback-img img {
+    max-height: 300px;
+}
+.common-sub-heading {
+    font: normal normal bold 20px/32px Poppins;
+    letter-spacing: 1.5px;
+}
+h6.titulo-blog {
+    font: normal normal 600 18px/26px Poppins;
+}
+h6.pb-5.blog-heading-title, h6.pb-5.blog-heading-title span {
+    font: normal normal 500 20px/28px Poppins;
+    letter-spacing: 2px;
+    padding-bottom: 1rem !important;
+}
+.feedback-img {
+    margin-bottom: 2rem;
+}
+.sulzinc-feedback-sec.py-5 .ps-5 {
+    padding-left: 0 !important;
+}
+.sulzinc-feedback-sec.py-5 .pe-5.text-end, .sulzinc-feedback-sec.py-5 .text-end {
+    text-align: left !important;
+}
+.sulzinc-feedback-sec.py-5 .row.px-4.align-items-center.mb-5 {
+    margin-bottom: 1rem !important;
+}
+.main-box-bg .blueviolate-color {
+    color: #863398;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 !important;
+}
+.sulzinc-medicine .col.me-4.rounded-3 {
+    margin-bottom: 2rem;
+}
+.container-fluid.middle-img-gp .row {
+    display: none;
+}
+ul.list-inline.icon-list li img {
+    max-height: 30px;
+}
+.blueviolet-btn, .orange-btn,.medecine-btn {
+    font: normal normal bold 14px/25px Poppins;
+    min-width: 140px;
+    padding: 0.5rem 1.3rem;
+}
+.sulzinc-feedback .d-flex.justify-content-center {
+    flex-wrap: wrap;
+}
+.sulzinc-feedback h5 {
+    font: normal normal 500 18px/24px Poppins;
+}
+.banner-content.text-center h1, .banner-content.text-center h1 span {
+    font: normal normal 500 24px/32px Poppins;
+}
+.banner-content.text-center {
+    position: absolute;
+    top: 10px;
+    z-index: 9;
+}
+.blog-input-section {
+    background-color: #E86E36;
+    border-radius: 31px;
+    padding: 30px;
+}
+.blog-input-section .text-white.pe-5 {
+    padding-right: 0 !important;
+}
+h6.fw-bold.text-center.common-sub-heading.text-dark {
+    text-align: left !important;
+}
+.Acrca-link {
+    font-size: 14px;
+}
+.footer-menu-sec {
+    padding: 40px 0;
+}
+.banner-slider.swiper-container {
+    padding: 0.2rem;
+}
+}
+@media (max-width:575.98px) {
+    .p-5 {
+	    padding: 1rem!important;
+	}
+}
+
+@media (max-width:340px) {
+.blueviolet-btn, .orange-btn,.medecine-btn{
+    font: normal normal bold 12px/20px Poppins;
+    min-width: auto;
+    padding: 0.5rem 1rem;
+}
+}

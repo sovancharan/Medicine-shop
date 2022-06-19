@@ -1,535 +1,635 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <!-- stule.css -->
-    <link rel="stylesheet" href="./Css/Style.css" />
-    <!-- responsive.css -->
-    <link rel="stylesheet" href="./Css/responsive.css" />
-    <!-- fontAwesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>Sulzinc</title>
-  </head>
-  <body>
-    <!-- Sulzinc-Section -->
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>sulzinc</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- stule.css -->
+  <link rel="stylesheet" href="./Css/Style.css" />
+  <!-- responsive.css -->
+  <link rel="stylesheet" href="./Css/responsive.css" />
+  <!-- fontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- owl coursel default min.css -->
 
-    <div class="sulzinc-header">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-          <a class="navbar-brand fs-3 text-danger fw-bolder" href="#"
-            >SULZINC</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-center d-flex"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active text-white fw-bold"
-                  aria-current="page"
-                  href="#"
-                  >PRODUCTOS</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-white fw-bold" href="#"
-                  >TIPS Y REMEDIOS</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-white fw-bold" href="#"
-                  >PREGUNTAS FRECUENTES</a
-                >
-              </li>
-            </ul>
-          </div>
-          <a
-            class="navbar-brand text-white fs-6 donate-compare  py-2 rounded-pill blueviolet-btn"
-            href="#"
-          >
-            DONATE COMPARE</a
-          >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- google fonts -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.2/swiper-bundle.css" integrity="sha512-VbPb+KrNIjcE5nM/Y+ZBvKvQF7+B/alQCQLPdIUAP3KsmDWkv0EdiyX4gfTwtJ3Sfais/nGJ0whTxjSwhQ1C8g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Sulzinc</title>
+</head>
+
+<body>
+  <!-- Sulzinc-Section -->
+
+  <div class="sulzinc-header">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand fs-3 fw-bolder" href="#">
+          <img class="img-fluid" src="./img/Logotipo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">TIPS Y REMEDIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">PREGUNTAS FRECUENTES</a>
+            </li>
+            <li> 
+            <a class="navbar-brand no-display text-white donate-compare blueviolet-btn text-uppercase" href="#">
+          DóNATE CoMPARE</a> 
+
+               <!-- <a class="navbar-brand sm-no-display text-white donate-compare blueviolet-btn" href="#">
+         <img src="./img/Estilo Btn.png" alt=""></a>
+         -->
+            </li>
+          </ul>
         </div>
-      </nav>
+        <a class="navbar-brand sm-no-display text-white donate-compare blueviolet-btn text-uppercase" href="#">
+          DóNATE CoMPARE</a>
+          
+            <!-- <a class="navbar-brand sm-no-display text-white donate-compare blueviolet-btn" href="#">
+         <img src="./img/Estilo Btn.png" alt=""></a>
+         -->
 
-      <div class="header-body">
-        <div class="header-heading text-white">
-          <div class="d-flex justify-content-center">
-            <h4 class="fw-normal pe-3">SUSPENSION PARA</h4>
-            <h4 class="fw-bold">DIARREA INFANTIL</h4>
-          </div>
-          <div class="d-flex justify-content-center">
-            <h4 class="fw-normal pe-3">Y</h4>
-            <h4 class="fw-bold">DEFICIENCIAS DE ZINC</h4>
-          </div>
-        </div>
-        <div class=" d-flex justify-content-center ">
-          <button class="btn  px-4 rounded-pill blueviolet-btn" type="button">
-            Comprar
-          </button>
-          <button class="btn ms-4 px-3 rounded-pill orange-btn" type="button">
-            Conoce mas
-          </button>
-        </div>
-      </div>
-    </div>
-    <!-- sulzinc-feedback-page -->
-    <div class="sulzinc-feedback py-5">
-      <div class="sulzinc-feedback">
-        <div class="d-flex justify-content-center">
-          <h5>PARA QUE SRIVE</h5>
-          <h5 class="fw-bold px-lg-2">SULZINC</h5>
-          <h5>SULFA TO DE ZINC?</h5>
-        </div>
-      </div>
-
-      <div class="container pt-5">
-        <div class="row py-4">
-          <div class="col-lg-6 col-md-6 col-sm-7">
-            <div class="feedback-img">
-              <img class="rounded-3 img-fluid" src="./img/family.jpg" alt="" />
-            </div>
-          </div>
-          <div class="col-lg-5 col-md-6 col-sm-7 ps-5">
-            <div class="py-4">
-              <h6 class="fw-bold text-danger">MEDIACAMENTO PARA LA DIARREA</h6>
-            </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Facilis laborum minus dolores suscipit, aliquam accusantium
-                itaque consequuntur sapiente officiis tenetur dolorum maiores,
-                saepe at explicabo eligendi asperiores? Deleniti nemo fugiat
-                ullam quis laborum dolor earum exercitationem placeat sed rerum
-                quas, ut aliquam doloribus sequi laboriosam ratione molestiae
-                quasi mollitia. Dignissimos!
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row py-4 pb-5">
-          <div class="col-lg-6 col-md-6 col-sm-7">
-            <div class="py-4">
-              <h6 class="fw-bold text-danger text-end pe-3">
-                MEDIACAMENTO PARA LA DIARREA
-              </h6>
-            </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Facilis laborum minus dolores suscipit, aliquam accusantium
-                itaque consequuntur sapiente officiis tenetur dolorum maiores,
-                saepe at explicabo eligendi asperiores? Deleniti nemo fugiat
-                ullam quis laborum dolor earum exercitationem placeat sed rerum
-                quas, ut aliquam doloribus sequi laboriosam ratione molestiae
-                quasi mollitia. Dignissimos!
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-7">
-            <div class="feedback-img ps-5">
-              <img class="img-fluid rounded-3" src="./img/family.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-
-        <div class="row pt-5">
-          <div class="col-lg-6 col-md-6 col-sm-7">
-            <div class="blueviolate-color">
-              <h4>
-                BANNER RUTA PARA <br />
-                CONVERSION
-              </h4>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-7">
-            <div>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
-              facere impedit doloribus maiores. Delectus voluptate nesciunt
-              consequatur natus, culpa modi, quia non magni reiciendis eligendi
-              dolorum dolores. Atque quod ipsum in sapiente.
-            </div>
-
-            <div class="d-grid gap-2 d-flex py-4">
-              <button class="btn  px-4 rounded-pill blueviolet-btn" type="button">
-                CTA Primario
-              </button>
-              <button class="btn  px-3 rounded-pill orange-btn" type="button">
-                CTA secudario
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Blog-section -->
-
-    <div class="sulzinc-blog bg-primary py-4">
-      <div class="container">
-        <div class="py-5">
-          <h6 class="text-center text-white">
-            i CONOCE NUESTROS
-            <span class="fw-bold px-2">TIPS Y REMEDIOS </span>SULZINC!
-          </h6>
-        </div>
-        <div class="row gx-0">
-          <div class="col bg-white rounded-3">
-            <div>
-              <img class="img-fluid rounded-top" src="./img/fa.jpg" alt="" />
-            </div>
-
-            <div class="">
-              <h6 class="titulo-blog ps-4 pt-3 pb-1">Titulo Blog</h6>
-              <p class="text-center px-4">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Repellat assumenda cum doloremque nobis libero quod adipisci
-                illo possimus ut quas?
-              </p>
-            </div>
-            <div class="ps-2">
-              <p class="ps-4 fw-bold blog-leer-mas">Leer mas</p>
-            </div>
-          </div>
-          <div class="col bg-white mx-lg-5 mx-md-1 rounded-3">
-            <div>
-              <img class="img-fluid rounded-top" src="./img/fa.jpg" alt="" />
-            </div>
-
-            <div class="">
-              <h6 class="titulo-blog ps-4 pt-3 pb-1">Titulo Blog</h6>
-              <p class="text-center px-4">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Repellat assumenda cum doloremque nobis libero quod adipisci
-                illo possimus ut quas?
-              </p>
-            </div>
-            <div class="ps-2">
-              <p class="ps-4 fw-bold blog-leer-mas">Leer mas</p>
-            </div>
-          </div>
-          <div class="col bg-white rounded-3">
-            <div>
-              <img class="img-fluid rounded-top" src="./img/fa.jpg" alt="" />
-            </div>
-
-            <div>
-              <h6 class="titulo-blog ps-4 pt-3 pb-1">Titulo Blog</h6>
-              <p class="text-center px-4">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Repellat assumenda cum doloremque nobis libero quod adipisci
-                illo possimus ut quas?
-              </p>
-            </div>
-            <div class="ps-2">
-              <div class="blog-leer-mas-underline">
-                <p class="ps-4 fw-bold blog-leer-mas">Leer mas</p>
+        </nav>
+      
+        <div class="banner-sec position-relative">
+          <div class="row">
+            <div class="col-sm-6 col-lg-6">
+              <div class="banner-left">
+                <img src="img/Pastillas.png" alt="">
               </div>
             </div>
-          </div>
-        </div>
-
-        <!-- input-section -->
-
-        <div class="blog-input-section mt-5  ">
-          <div class="row container pt-5 pb-4">
-            <div class="col-7">
-              <div class="text-white px-4 pe-5">
-                <h6 class="pb-5">
-                  i QUIERO <span class="px-2">RECIBIR MAS</span> TIPS Y REMEDIOS
-                  PARA LA DEFICIENCIA DE ZINC!
-                </h6>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, autem quod molestiae sit earum libero.
-                </p>
+            <div class="col-sm-6 col-lg-6">
+              <div class="banner-right text-end">
+                <img src="img/Jarabe.png" alt="">
               </div>
             </div>
-            <div class="col-lg-5">
-              <div>
-                <div class="input-group mb-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Username"
-                    aria-label="Username"
-                    aria-describedby="basic-addon1"
-                  />
-                </div>
-                <div class="input-group mb-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Username"
-                    aria-label="Username"
-                    aria-describedby="basic-addon1"
-                  />
+            <div class="col-12 text-center">
+              <div class="sulzinc-feedback">
+                <div class="d-flex justify-content-center">
+                  <h5>¿Para qué sirve</h5>
+                  <h5 class="fw-bold px-lg-2">SULZINC</h5>
+                  <h5>sulfato de zinc?</h5>
                 </div>
               </div>
-              <div class="d-grid gap-2 d-flex justify-content-end">
-                <button class="btn  px-4 rounded-pill  blueviolet-btn" type="button">
-                  ENVIAR
+            </div>
+            <div class="banner-content text-center">
+              <h1>Suspensión para <span> Diarrea Infantil </span> <br> y <span>Deficiencias de Zinc</span></h1>
+              <div class="text-center pb-5">
+                <button class="btn blueviolet-btn" type="button">
+                  Comprar
+                </button>
+                <button class="btn orange-btn " type="button">
+                  Conoce más
                 </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- sulzinc-medicine section -->
-
-    <div class="sulzinc-medicine bg-success pb-5">
-      <div class="container">
-        <div class="py-5">
-          <h6 class="fw-bold text-center">PRESENTACIONES DE SULZINC</h6>
-        </div>
-        <div class="row">
-          <div class="col bg-white me-4 rounded-3">
-            <div
-              class="d-flex justify-content-end position-relative sulzinc-medicine-img pe-5"
-            >
-              <img class="img-fluid w-50" src="./img/family.jpg" alt="" />
-            </div>
-            <div class="container ">
-              <h6 class="blueviolate-color fw-bolder">SULZINC JARABE</h6>
-              <p class="col-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate, ut eos ea harum possimus magnam soluta incidunt at
-                facilis nam.
-              </p>
-            </div>
-            <div class="d-grid gap-2 d-flex py-4 container">
-              <button class="btn px-4 rounded-pill blueviolet-btn" type="button">
-                Donde comprar
-              </button>
-              <p class="ps-4 fw-bold blog-leer-mas">Leer mas</p>
-            </div>
+  </div>
+  <!-- sulzinc-feedback-page -->
+  <div class="sulzinc-feedback-sec py-5">   
+    <div class="container-fluid">
+      <div class="row px-4 align-items-center mb-5">
+        <div class="col-lg-6 col-md-5 col-sm-12">
+          <div class="feedback-img">
+            <img class="rounded-3 img-fluid" src="./img/feedback-left.png" alt="" />
           </div>
-          <div class="col-lg-6 col-sm-7 col-md-6 bg-white">
-            <div
-              class="d-flex justify-content-end pe-5 position-relative sulzinc-medicine-img"
-            >
-              <img class="img-fluid w-50" src="./img/family.jpg" alt="" />
-            </div>
-            <div class="container ">
-              <h6 class="blueviolate-color fw-bolder">SULZINC TABLETS</h6>
-              <p class="col-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate, ut eos ea harum possimus magnam soluta incidunt at
-                facilis nam.
-              </p>
-            </div>
-            <div class="d-grid gap-2 d-flex py-4 container">
-              <button class="btn  px-4 rounded-pill blueviolet-btn" type="button">
-                Donde comprar
-              </button>
-              <p class="ps-4 fw-bold blog-leer-mas mb-0">Leer mas</p>
-            </div>
+        </div>
+        <div class="col-lg-6 col-md-7 col-sm-12">
+          <div class="ps-5">
+            <h6 class="fw-bold">MEDIACAMENTO PARA LA DIARREA</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Facilis laborum minus dolores suscipit, aliquam accusantium
+              itaque consequuntur sapiente officiis tenetur dolorum maiores,
+              saepe at explicabo eligendi asperiores? Deleniti nemo fugiat
+              ullam quis laborum dolor earum exercitationem placeat sed rerum
+              quas, ut aliquam doloribus sequi laboriosam ratione molestiae
+              quasi mollitia. Dignissimos!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row px-4 pb-5 align-items-center">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="pe-5 text-end">
+            <h6 class="fw-bold text-end">
+              Deficiencia de Zinc
+            </h6>          
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Facilis laborum minus dolores suscipit, aliquam accusantium
+              itaque consequuntur sapiente officiis tenetur dolorum maiores,
+              saepe at explicabo eligendi asperiores? Deleniti nemo fugiat
+              ullam quis laborum dolor earum exercitationem placeat sed rerum
+              quas, ut aliquam doloribus sequi laboriosam ratione molestiae
+              quasi mollitia. Dignissimos!
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="feedback-img ps-5">
+            <img class="img-fluid rounded-3" src="./img/feedback-right.png" alt="" />
           </div>
         </div>
       </div>
     </div>
-    <!-- utilizer supliment -->
-    <div class="utilizer-supliment bg-secondary pt-5">
-      <div class="container pt-5">
-        <div class="row py-5">
-          <div class="col">
-            <div class="text-white pt-3 pb-4">
-              <h6>
-                BENEFICARIONS DE UTILIZAR <br />
-                SUPLIMENTOS DE ZINC
-              </h6>
-            </div>
-            <div class="d-flex">
-              <div class="bg-white rounded-circle p-3">
-                <img src="./img/busket.png" alt="" />
-              </div>
-              <div class="bg-white rounded-circle p-3 mx-4">
-                <img src="./img/busket.png" alt="" />
-              </div>
-              <div class="bg-white rounded-circle p-3">
-                <img src="./img/busket.png" alt="" />
-              </div>
-            </div>
+  </div>
+<div class="main-box-bg">
+  <div class="container-fluid">
+    <div class="row pt-5">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="blueviolate-color px-5">
+            <h4 class="common-sub-heading theme-color">
+              BANNER RUTA PARA <br />
+              CONVERSION
+            </h4>
           </div>
-          <div class="col">
-            <div class="text-white">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-                libero vero voluptates magnam placeat id iusto, rerum ipsum ipsa
-                illo?
-              </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+            facere impedit doloribus maiores. Delectus voluptate nesciunt
+            consequatur natus, culpa modi, quia non magni reiciendis eligendi
+            dolorum dolores. Atque quod ipsum in sapiente.
+          </div>
+
+          <div class="d-grid gap-2 d-flex py-4">
+            <button class="btn  px-4 blueviolet-btn" type="button">
+              CTA Primario
+            </button>
+            <button class="btn  px-3 orange-btn" type="button">
+              CTA Secundario
+            </button>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+  <!-- Blog-section -->
+  <div class="sulzinc-blog  py-4">
+    <div class="container-fluid">
+      <div class="py-5">
+        <h6 class="text-center text-white common-sub-heading">
+          i CONOCE NUESTROS
+          <span class="fw-bold px-2">TIPS Y REMEDIOS </span>SULZINC!
+        </h6>
+      </div>
+      <div class="banner-slider  swiper-container  full-height" style="">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide ">  
+         <div class="card card-style">
+            <div>
+              <img class="img-fluid rounded-top" src="./img/tut-blog-img-1.png" alt="" />
             </div>
-            <div class="bg-white container rounded-3 py-3 mt-5">
-              <p>
+  
+            <div class="card-body text-start p-5">
+              <h6 class="titulo-blog">Titulo Blog</h6>
+              <p class="text-start">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Corporis sapiente perferendis cupiditate at nisi ipsa officiis
-                quasi laboriosam aperiam totam?
+                Repellat assumenda cum doloremque nobis libero quod adipisci
+                illo possimus ut quas?
               </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- comprar -->
-
-    <div class="comprar pt-5 pb-5">
-      <div class="container">
-        <div class="py-5">
-          <h6 class="text-center">
-            DONDE <span class="fw-bold px-2">COMPRAR?</span>
-          </h6>
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <div>
-              <h5 class="bioplus fw-bolder text-center text-primary">BioPlus</h5>
-              <p class="text-center m-0 fw-bold">Nombre Drogueria</p>
-              <p class="text-center">Direccion/Ubicacion</p>
-            </div>
-            <p class="ps-4 fw-bold blog-leer-mas text-center">Comparar</p>
-          </div>
-          <div class="col">
-            <div>
-              <h5 class="bioplus fw-bolder text-center text-primary">BioPlus</h5>
-              <p class="text-center m-0 fw-bold">Nombre Drogueria</p>
-              <p class="text-center">Direccion/Ubicacion</p>
-            </div>
-            <p class="ps-4 fw-bold blog-leer-mas text-center">Comparar</p>
-          </div>
-          <div class="col">
-            <div>
-              <h5 class="bioplus fw-bolder text-center text-primary">BioPlus</h5>
-              <p class="text-center m-0 fw-bold">Nombre Drogueria</p>
-              <p class="text-center">Direccion/Ubicacion</p>
-            </div>
-            <p class="ps-4 fw-bold blog-leer-mas text-center">Comparar</p>
-          </div>
-          <div class="col">
-            <div>
-              <h5 class="bioplus fw-bolder text-center text-primary">BioPlus</h5>
-              <p class="text-center m-0 fw-bold">Nombre Drogueria</p>
-              <p class="text-center">Direccion/Ubicacion</p>
-            </div>
-            <p class="ps-4 fw-bold blog-leer-mas text-center">Comparar</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- map -->
-
-    <div class="map py-5">
-      <div class="container">
-        <img class="img-fluid h-50" src="./img/map.jpg" alt="" />
-      </div>
-    </div>
-
-    <!-- menu-section -->
-
-    <div class="menu-main-div pt-5">
-      <div class="container">
-        <div class="row ">
-          <div class="col-4">
-            <div class="menu-heading  pb-4 pt-2">
-              <h5 class="fw-bold ">MENU</h5>
-            </div>
-            <ul class="text-dark ps-0">
-              <li class="text-dark"><a href="#">Productos</a></li>
-              <li><a href="#">SulZinc Jarabe </a></li>
-              <li><a href="#">SulZinc Tabletas</a></li>
-              <li><a href="#">Tips y Remedios</a></li>
-              <li><a href="#">Preguntas Frecuentes</a></li>
-              <li><a href="#">Aviso de Privacidad</a></li>
-            </ul>
-
-            <div class="menu-heading  pb-4 pt-4">
-              <h5 class="fw-bold ">REDES</h5>
               <div class="">
-                <i class="fa-brands fa-facebook fs-5"></i>
-                <i class="fa-brands fa-instagram-square fs-5"></i>
-                <i class="fa-brands fa-linkedin fs-5"></i>
-                <i class="fa-brands fa-twitter-square fs-5"></i>
+                <p class="fw-bold blog-leer-mas">Leer mas</p>
               </div>
             </div>
-          </div>
-          <div class="col-8">
-            <div class="menu-heading pb-4 pt-2">
-              <h5 class="fw-bold">ACAERCA DE NOSOTROS</h5>
-            </div>
+            
+          </div>  
+        </div>
+        <div class="swiper-slide ">  
+         <div class="card card-style">
             <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Praesentium accusantium ea dicta obcaecati laborum non sequi
-                blanditiis id mollitia culpa?
-              </p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
-                dolor.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                est eum quidem officiis fugiat nesciunt, et quo voluptas
-                pariatur atque dolores vitae laudantium debitis, qui provident
-                laborum iusto!
-              </p>
+              <img class="img-fluid rounded-top" src="./img/tut-blog-img2.png" alt="" />
             </div>
+  
+            <div class="card-body text-start p-5">
+              <h6 class="titulo-blog ">Titulo Blog</h6>
+              <p class="text-start">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Repellat assumenda cum doloremque nobis libero quod adipisci
+                illo possimus ut quas?
+              </p>
+              <div class="">
+                <p class="fw-bold blog-leer-mas">Leer mas</p>
+              </div>
+            </div>
+            
+          </div>  
+        </div>
+        <div class="swiper-slide ">  
+         <div class="card card-style">
+            <div>
+              <img class="img-fluid rounded-top" src="./img/tut-blog-img3.png" alt="" />
+            </div>
+  
+            <div class="card-body text-start p-5">
+              <h6 class="titulo-blog">Titulo Blog</h6>
+              <p class="text-start">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Repellat assumenda cum doloremque nobis libero quod adipisci
+                illo possimus ut quas?
+              </p>
+              <div class="">
+                <p class="fw-bold blog-leer-mas">Leer mas</p>
+              </div>
+            </div>
+            
+          </div> 
+        </div>
+        <div class="swiper-slide ">  
+         <div class="card card-style">
+            <div>
+              <img class="img-fluid rounded-top" src="./img/tut-blog-img-1.png" alt="" />
+            </div>
+  
+            <div class="card-body text-start p-5">
+              <h6 class="titulo-blog ">Titulo Blog</h6>
+              <p class="text-start">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Repellat assumenda cum doloremque nobis libero quod adipisci
+                illo possimus ut quas?
+              </p>
+              <div class="">
+                <p class="fw-bold blog-leer-mas">Leer mas</p>
+              </div>
+            </div>
+            
+          </div> 
+        </div>
+        <div class="swiper-slide ">  
+         <div class="card card-style">
+            <div>
+              <img class="img-fluid rounded-top" src="./img/tut-blog-img2.png" alt="" />
+            </div>
+  
+            <div class="card-body text-start p-5">
+              <h6 class="titulo-blog">Titulo Blog</h6>
+              <p class="text-start">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Repellat assumenda cum doloremque nobis libero quod adipisci
+                illo possimus ut quas?
+              </p>
+              <div class="">
+                <p class="fw-bold blog-leer-mas">Leer mas</p>
+              </div>
+            </div>
+            
+          </div> 
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    </div>
+  </div>
+
+  <!-- input-section -->
+
+  <div class="container-fluid mt-5">
+    <div class=" blog-input-section">
+    <div class="row">
+      <div class="col-sm-12 col-lg-7 pe-4">
+        <div class="text-white pe-5">
+          <h6 class="pb-5 blog-heading-title">
+            i QUIERO <span class="px-2 fw-bold">RECIBIR MAS</span> TIPS Y REMEDIOS
+            PARA LA DEFICIENCIA DE ZINC!
+          </h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Officiis, autem quod molestiae sit earum libero.
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-5">
+        <form class="form-contact">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Username"
+              aria-describedby="basic-addon1" />
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Correo electrónico" aria-label="Username"
+              aria-describedby="basic-addon1" />
+          </div>
+        <div class="d-grid gap-2 d-flex justify-content-end">
+          <button class="btn  px-4  blueviolet-btn" type="button">
+            ENVIAR
+          </button>
+        </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+
+  <div class="container-fluid middle-img-gp">
+    <div class="pb-5">
+      <h6 class="fw-bold text-center common-sub-heading text-dark">PRESENTACIONES DE SULZINC</h6>
+    </div>
+    <div class="row">
+      <div class="col me-4">
+        <div class="d-flex justify-content-end position-relative sulzinc-medicine-img pe-5">
+          <img class="img-fluid w-50" src="./img/Grupo 120.png" alt="" />
+        </div>
+        
+      </div>
+      <div class="col-lg-6 col-sm-12 col-md-6">
+        <div class="d-flex justify-content-end pe-5 position-relative sulzinc-medicine-img">
+          <img class="img-fluid w-50" src="./img/Grupo 121.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- sulzinc-medicine section -->
+
+  <div class="sulzinc-medicine">
+    <div class="container-fluid">
+     
+      <div class="row">
+        <div class="col me-4 rounded-3">
+          <div class="sm-display  sulzinc-medicine-img pe-5">
+          <img class="img-fluid w-50 medecine-img" src="./img/Grupo 120.png" alt="" />
+        </div>
+          <div class="text-start ">
+            <h6 class="blueviolate-color fw-bolder common-sub-heading theme-color">SULZINC JARABE</h6>
+            <p class="col-sm-12 col-lg-10">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tortor enim, efficitur nec pulvinar in, fermentum in libero. Vivamus sapien augue, pulvinar non suscipit a, fermentum a nibh.ermentum in libero. Vivamus sapien augue, pulvinar non suscipit. Vivamus sapien augue, pulvinar non suscipit a, fermentum a nibh.ermentum in libero.
+            </p>
+          </div>
+          <div class="d-flex gap-4 align-items-center">
+            <div><button class="btn px-4 medecine-btn" id="" type="button">
+              Dónde comprar
+            </button></div>
+            <p class="fw-bold blog-leer-mas">Quiero Saber Más</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 col-md-6">
+           <div class="sm-display position-relative sulzinc-medicine-img ">
+          <img class="img-fluid w-50 medecine-img pb-md-2 pb-md-4" src="./img/Grupo 121.png "  alt="" />
+        </div>
+          <div class="text-start ">
+            <h6 class=" mt-md-2 blueviolate-color fw-bolder common-sub-heading theme-color">SULZINC TABLETS</h6>
+            <p class="col-sm-12 col-lg-10 pe-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tortor enim, efficitur nec pulvinar in, fermentum in libero. Vivamus sapien augue, pulvinar non suscipit a, fermentum a nibh.ermentum in libero. Vivamus sapien augue, pulvinar non suscipit. Vivamus sapien augue, pulvinar non suscipit a, fermentum a nibh.ermentum in libero.
+            </p>
+          </div>
+          <div class="gap-4 d-flex align-items-center medecine-right-button">
+            <div>
+              <button class="btn  px-4 medecine-btn " id="" type="button">
+                Dónde comprar
+              </button>
+            </div>
+            <p class="fw-bold blog-leer-mas">Quiero Saber Más</p>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- footer -->
-
-    <div class="footer py-3 pt-4">
-      <div class="text-white text-center">
-        <p class="p-0 m-0">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore,
-          dolorum.
-        </p>
-        <p class="p-0 m-0">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, ut.
-        </p>
+  </div>
+  <!-- utilizer supliment -->
+  <div class="utilizer-supliment">
+    <div class="container-fluid">
+      <div class="row py-5">
+        <div class="col-sm-12 col-lg-5 p-5">
+          <div class="text-white pt-3 mb-5">
+            <h5 class="text-uppercase fw-bolder common-sub-heading">
+              Beneficios de utilizar<br />
+              suplementos de Zinc
+            </h5>
+          </div>
+          <ul class="list-inline icon-list">
+            <li class="list-inline-item">
+              <img class="img-fluid" src="./img/no-virus.png" alt="" />
+            </li>
+            <li class="list-inline-item">
+              <img class="img-fluid" src="./img/gastroenterologist.png" alt="" />
+            </li>
+            <li class="list-inline-item">
+              <img class="img-fluid" src="./img/prescription.png" alt="" />
+            </li>
+        </div>
+        <div class="col-sm-12 col-lg-7">
+          <div class="text-white">
+            <p class="">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tortor enim, efficitur nec pulvinar
+              in, fermentum in libero. Vivamus sapien augue, pulvinar non suscipit a, fermentum a nibh.ermentum in
+              libero. Vivamus sapien augue, pulvinar non suscipit. Vivamus sapien augue, pulvinar non suscipit a,
+              fermentum a nibh.ermentum in libero.
+            </p>
+          </div>
+          <div class="bg-white container  py-3 mt-5 utlizar-roundad-div">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tortor enim, efficitur nec pulvinar
+              in, fermentum in libero. Vivamus sapien augue, pulvinar non suscipit a, fermentum a nibh.ermentum in
+              libero. Vivamus sapien augue, pulvinar non suscipit. Vivamus sapien augue, pulvinar non suscipit a,
+              fermentum a nibh.ermentum in libero.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- comprar -->
+
+  <div class="comprar pb-5">
+    <div class="container-fluid">
+      <div class="pb-5">
+        <h5 class="text-center text-uppercase common-sub-heading text-dark">
+          <span class=" "> ¿Dónde</span> <span class="fw-bolder px-2">COMPRAR?</span>
+        </h5>
+      </div>
+
+      <div class="row">
+        <div class="col text-center">
+          <div>
+            <div class="text-center">
+              <img class="img-fluid" src="./img/Farmacia.png" alt="BioPlus">
+            </div>
+            <p class="text-center m-0 fw-bold">Nombre Droguería</p>
+            <p class="text-center">Dirección/Ubicación</p>
+          </div>
+          <p class="fw-bold blog-leer-mas text-center">Comprar</p>
+        </div>
+        <div class="col text-center">
+          <div>
+            <div class="text-center">
+              <img class="img-fluid" src="./img/Farmacia.png" alt="BioPlus">
+            </div>
+            <p class="text-center m-0 fw-bold">Nombre Droguería</p>
+            <p class="text-center">Dirección/Ubicación</p>
+          </div>
+          <p class="fw-bold blog-leer-mas text-center">Comprar</p>
+        </div>
+        <div class="col text-center">
+          <div>
+            <div class="text-center">
+              <img class="img-fluid" src="./img/Farmacia.png" alt="BioPlus">
+            </div>
+            <p class="text-center m-0 fw-bold">Nombre Droguería</p>
+            <p class="text-center">Dirección/Ubicación</p>
+          </div>
+          <p class="fw-bold blog-leer-mas text-center">Comprar</p>
+        </div>
+        <div class="col text-center">
+          <div>
+            <div class="text-center">
+              <img class="img-fluid" src="./img/Farmacia.png" alt="BioPlus">
+            </div>
+            <p class="text-center m-0 fw-bold">Nombre Droguería</p>
+            <p class="text-center">Dirección/Ubicación</p>
+          </div>
+          <p class="fw-bold blog-leer-mas text-center">Comprar</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- map -->
+
+  <div class="map-main-div my-5 ">
+    <div class="container-fluid mb-3">
+      <!-- <img class="img-fluid h-50" src="./img/Mapa.png" alt="" /> -->
+      <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+    </div>
+  </div>
+
+  <!-- menu-section -->
+
+  <div class="menu-main-div footer-menu-sec">
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-sm-12 col-lg-4">
+          <div class="menu-heading  pb-4 pt-2">
+            <h5 class="fw-bold common-sub-heading theme-color">Menú</h5>
+          </div>
+          <ul class="menu-items ps-0">
+            <li class=""><a href="#">Productos</a></li>
+            <li><a href="#">SulZinc Jarabe</a></li>
+            <li><a href="#">SulZinc Tabletas </a></li>
+            <li><a href="#">Tips y Remedios </a></li>
+            <li><a href="#">Preguntas Frecuentes</a></li>
+            <li><a href="#">Aviso de Privacidad</a></li>
+          </ul>
+
+          <div class="menu-heading  pb-4 pt-4">
+            <h5 class="fw-bold common-sub-heading theme-color">Redes</h5>
+            <div class="social-icon">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 col-sm-12">
+          <div class="menu-heading">
+            <h5 class="fw-bold common-sub-heading theme-color">Acerca de Nosotros</h5>
+          </div>
+          <div class="acerca-para">
+            <p>
+              Bausch Health Companies Inc. (Bausch Health), es una empresa multinacional de especialidades farmacéuticas
+              que desarrolla, fabrica y comercializa una extensa gama de productos farmacéuticos. Nuestra misión es
+              mejorar la vida de las familias a través de una variedad de terapias accesibles y de alta calidad.
+            </p>
+            <p>
+              Todos los datos proporcionados a Bausch Health a través de esta página, o de cualquier otro medio de
+              contacto, serán tratados conforme a nuestro aviso de privacidad que podrás consultar en: <a href="" 
+                class="Acrca-link"> http://www.bauschhealth.com.mx </a>
+            </p>
+            <p>
+              En caso de que desee reportar alguna queja o reacción no deseada (reacción adversa) del medicamento, por
+              favor comuníquese al área de Farmacovigilancia del laboratorio al 55-23-00-96-56, 55-23-00-96-56 o llame
+              al 52 (55) 50-62-41-77, también puede levantar su reporte en el siguiente correo: <br> <a href="" 
+                class="Acrca-link"> farmacovigilancia.mexico@bauschhealth.com</a>(LA INFORMACIÓN CORRESPONDIENTE A
+              COLOMBIA)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+
+  <div class="footer py-3 pt-4">
+    <div class="text-white text-center px-3">
+      <p class="p-0 m-0">
+        <a href="" class="aviso-underline">Aviso de Privacidad Completo</a> | Laboratorios Grossman, S.A.
+      </p>
+      <p class="p-0 m-0">
+        Número de autorización: 193300201B0829 | Consulte a su Médico
+      </p>
+    </div>
+  </div>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.2/swiper-bundle.min.js" integrity="sha512-EWat0/wkEZtE7OENhG700T+jmrpHStGS7CqHUAzKW5MzNnVEa9Wfb+zJjF4hoXSgMTWlixL5Fgqhjx5PAliaXw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $(document).ready(function() {
+       
+        var swiper = new Swiper(".banner-slider", {
+        spaceBetween: 50,
+        slidesPerView: 3,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        // renderBullet: function (index, className) {
+        //   return '<span class="' + className + '">'  + (index + 1) + '</span>'
+        // },
+      },
+        breakpoints: {
+            1024: {
+                slidesPerView: 3,
+            },
+            768: {
+                slidesPerView: 2,
+            },
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 20
+            },
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10
+            }
+        },
+        
+        autoplay: {
+            delay: 5000,
+        },
+      });
+      });
+  </script>
+</body>
+
 </html>
